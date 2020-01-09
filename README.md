@@ -1,4 +1,3 @@
-# ehualu
 
 > A Vue.js project
 
