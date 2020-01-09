@@ -1,0 +1,93 @@
+.top {
+  width: 100%;
+}
+
+.block {
+  float: left;
+  background-color: #ffffff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #DBDBE5;
+  /*transition: transform 1s;*/
+  margin: .5em;
+}
+
+.title {
+  padding-left: 0.8em;
+  height: 2em;
+  line-height: 3em;
+  font-size: 0.7em;
+  color: #A14EE7;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.title i {
+  background-image: -webkit-linear-gradient(bottom, #2F23AB, #C86CD7 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user {
+  width: 70%;
+  background: #6270A6;
+  background: linear-gradient(left, #5A629C, #8CB8DA);
+  background: -ms-linear-gradient(left, #2F23AB, #8CB8DA);
+  background: -moz-linear-gradient(left, #2F23AB, #8CB8DA);
+  color: #ffffff;
+  padding: 1em 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.share {
+  width: 70%;
+  background: #FD8390;
+  background: linear-gradient(left, #FDA39B, #FD6386);
+  background: -ms-linear-gradient(left, #FDA39B, #FD6386);
+  background: -moz-linear-gradient(left, #FDA39B, #FD6386);
+  color: #ffffff;
+  padding: 1em 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.node {
+  width: 70%;
+  background: #5CB3E8;
+  background: linear-gradient(left, #58CBF0, #5EA4E2);
+  background: -ms-linear-gradient(left, #58CBF0, #5EA4E2);
+  background: -moz-linear-gradient(left, #58CBF0, #5EA4E2);
+  color: #ffffff;
+  padding: 1em 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.da{
+  width: 70%;
+  background: #81CDCE;
+  background: linear-gradient(right, #B7F8DB, #50A7C2);
+  background: -ms-linear-gradient(right, #B7F8DB, #50A7C2);
+  background: -moz-linear-gradient(right, #B7F8DB, #50A7C2);
+  color: #ffffff;
+  padding: 1em 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.number-content {
+  font-family: REGULAR;
+  font-size: 3em;
+  text-align: center;
+}
+
+.number-icon {
+  position: absolute;
+  bottom: 0em;
+  right: -0.2em;
+  font-size: 5em;
+  color: rgba(255, 255, 255, .3);
+}
+
